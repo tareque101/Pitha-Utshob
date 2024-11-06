@@ -3,105 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pita Ghor</title>
-
-   <link rel="stylesheet" href="style/style.css">
+    <title>Pitha Ghor</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
- <body>
-
+<body>
     <div class="body-container">
         <!-- header started -->
-    <header>
+        <header>
+            <div class="header-container">
+                <div class="header-text">
+                    <h1 id="header">This is a Place of Heaven of Pitha</h1>
+                    <p class="des-text">Display shelves or baskets where the variety of pithas—<br>like bhapa pitha, patishapta, and chitai pitha—are kept.</p>
+                </div>
 
-        <div class="header-container"> 
+                <div class="profile-contact">
+                    <h3>Contact:</h3>
+                    <p><a href="mailto:tareksrahman3@gmail.com">Email: tareksrahman3@gmail.com</a></p>
+                    <p><a href="tel:01834584104">Phone: 01834584104</a></p>
+                </div>
+            </div>
+        </header>
 
-        <div class="header-text">
+        <hr class="divider">
 
-            <h1 id="header">This is a Place of Heaven of Pitha</h1>
-            <p class="des-text" style="color: brown; font-size: larger;  ">Display shelves or baskets where the variety of pithas— <br> like bhapa pitha, patishapta, and chitai pitha—are kept.</p>
+        <!-- header ended -->
+        <main>
+            <div class="img-div">
+                <figure>
+                    <img src="./assets/Assamese Style Mohura Pitha Recipe - Sweet Rice Dumplings Recipe.jpeg" alt="BapaPitha">
+                    <figcaption>Bapa Pitha</figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/15 Dishes From Northeast India That Will Definitely Make You Drool - ScoopWhoop.jpeg" alt="ChitoyPitha">
+                    <figcaption>Chitoy Pitha</figcaption>
+                </figure>
+            </div>
 
-        </div>
+            <h1 class="form-header">To enjoy the taste, Fill up the form</h1>
+            <section class="section-form">
+                <form>
+                    <label>Your Name: <input type="text" placeholder="Your name"></label>
+                    <label>Your Email: <input type="email" placeholder="Your email"></label>
+                    <label>Your Phone: <input type="text" placeholder="Your phone"></label>
 
-    
+                    <fieldset>
+                        <legend>Pick one Pitha</legend>
+                        <label><input type="radio" name="pitha"> Bhapa Pitha</label>
+                        <label><input type="radio" name="pitha"> Chitoy Pitha</label>
+                        <label><input type="radio" name="pitha"> Patishapta</label>
+                        <label><input type="radio" name="pitha"> Fobh</label>
+                    </fieldset>
 
-        <div class="profile-contact">
-            <h3>CONTACT:</h3>
-            <p><a href="mail to:tareksrahman3@gmail.com">Email:tareksrahman3@gmail.com</a></p>
-            <p><a href="Phone to:01834584104">01834584104</a></p>
-        
-        </div>
+                    <fieldset>
+                        <legend>Pick Borta</legend>
+                        <label><input type="checkbox" name="borta"> Alu Borta</label>
+                        <label><input type="checkbox" name="borta"> Shutki Borta</label>
+                        <label><input type="checkbox" name="borta"> Kochu Borta</label>
+                    </fieldset>
 
+                    <textarea class="textArea" cols="30" rows="4" placeholder="Give us feedback"></textarea>
+                    <br>
+
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
     </div>
-
-    </header>
-    <hr style="font-size: larger; border: 2px solid rgb(20, 49, 210);">
-
-      <!-- header ended -->
-
-    <main>
-
-        <div class="img-div">
-            <figure>
-                <img src="./assets/Assamese Style Mohura Pitha Recipe - Sweet Rice Dumplings Recipe.jpeg" alt="">
-
-                <figcaption style="font-size: larger;">BapaPitha</figcaption>
- 
-            </figure>
-            <figure>
-              
-                <img src="./assets/15 Dishes From Northeast India That Will Definitely Make You Drool - ScoopWhoop.jpeg" alt="">
-
-                <figcaption style="font-size: larger;">ChitoyPitha</figcaption>
-            </figure>
-     
-           
-            <!-- <img src="./assets/Sweet Kozhukatta_ Steamed Rice Dumplings.jpeg" alt=""> -->
-
-        </div>
-        <h1 style="margin-left: 10px;">To enjoy the test, Fill up the form</h1>
-       
-          <section class="section-form">
-            <form
-            >
-           <label for="text">Your name: <input type="text" name="" id="" placeholder="Your text"></label>
-           <label for="email">Your Phone: <input type="email" name="" id="" placeholder="Your email"></label>
-           <label for="text">Your Phone: <input type="text" name="" id="" placeholder="Your phone"></label>
-
-           <fieldset>
-            <legend>Pick one Pitha</legend>
-
-            <label for="pitha"><input type="radio" name="pitha" id="">bapapitah</label>
-            <label for="pitha"><input type="radio" name="pitha" id="">ChitoyPita</label>
-            <label for="pitha"><input type="radio" name="pitha" id="">Patishapta</label>
-            <label for="pitha"><input type="radio" name="pitha" id="">fobh</label>
-           </fieldset>
-
-           <fieldset>
-            <legend>Pick Borta</legend>
-
-            <label for="pitha"><input type="checkbox" name="pitha" id="">Alu Borta</label>
-            <label for="pitha"><input type="checkbox" name="pitha" id="">Shutki Borta</label>
-            <label for="pitha"><input type="checkbox" name="pitha" id="">kochu Borta</label>
-           </fieldset>
-
-           <textarea class="textArea" name="" id="" cols="30" rows="10">give us feedback</textarea>
-
-           <br>
-
-           <input type="reset" value="Reset">
-
-           <input type="submit" value="Submit">
-        
-        </form>
-    </section>
- 
-
-    </main>
-
-    <footer>
-
-    </footer>
-
-</div>
- </body>
+</body>
 </html>
